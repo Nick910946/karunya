@@ -1,0 +1,78 @@
+.popup-main {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgb(0 0 0 / 28%);
+	z-index: 9999;
+	height: 100%;
+	display: block;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s ease-in-out;
+}
+.popup-main.enquiry-form {
+	opacity: 1;
+	visibility: visible;
+}
+.popup-box {
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%);
+	max-width: 500px;
+	background: #fff;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+#close-btn {
+	background: transparent linear-gradient(88deg, #0587DD 0%, #03246B 100%) 0% 0% no-repeat padding-box;
+	padding: 6px 6px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 0 6px 0 0;
+	border: none;
+}   
+.popup-box #popup-id {
+	padding-top: 25px;
+}
+.popup-box #popup-id input.error {
+	border-color: #f00;
+}
+.popup-box #popup-id label.error {
+	display: none !important;
+}
+.popup-box #popup-id input {
+	margin-bottom: 20px;
+}
+.popup-box #popup-id .btnbox {
+	text-align: center;
+}
+.popup-box #popup-id input {
+	width: 100%;
+	height: 50px;
+	padding: 0 10px;
+	border: 1px solid #000;
+}
+.popup-box #popup-id .btnbox .mess-btn {
+	background: transparent linear-gradient(88deg, #0587DD 0%, #03246B 100%) 0% 0% no-repeat padding-box;
+	color: #fff;
+	border-radius: 20px;
+	width: 200px;
+	height: 45px;
+	border: none;
+}
+.btn.focus, .btn:focus {
+	outline: 0 !important;
+	box-shadow: none;
+}
+@media (max-width:599px){
+	.popup-box {
+		max-width: 90%;
+	}
+}
