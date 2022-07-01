@@ -31,7 +31,7 @@ include "head.php";
 				<div class="col-md-4 service-box wow fadeIn">
 					<div class="service-inner-box text-center">
 						<img src="images/smg-1.jpg">
-						<h4><!-- Annual --> <span>Smart Energy Meter</span></h4>
+						<h4> <span>Smart Energy Meter</span></h4>
                         <p class="m-2">A Smart Energy Meter is an electronic device that records information such as consumption of electric energy, voltage levels, current, and power factor. Smart meters communicate the information to the consumer for greater clarity of consumption behavior, and electricity suppliers for system monitoring and customer billing. Smart meters typically record energy near real-time, and report regularly, short intervals throughout the day.<br>Smart meters enable two-way communication between the meter and the central system. Such an advanced metering infrastructure (AMI) differs from automatic meter reading (AMR) in that it enables two-way communication between the meter and the supplier. </p>
 					</div>
 				</div>

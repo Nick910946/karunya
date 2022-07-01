@@ -1,6 +1,19 @@
 <?php
 include "header.php";
 ?>
+<style>
+.col-sm-3:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.our-service-box:hover {
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9); 
+}
+
+</style>
 
 <main>
   <section class="banner font-box">

@@ -7,7 +7,7 @@
           <div class="row">
               <div class="col-12 text-center Get_Started_Content">
                   <p style="text-align: center;"> lets <span>Get started</b></span></p>
-                  <form name="footer_form" class="form-inline" id="footer_form" method="POST" action="userinfo.php">
+                  <form name="footer_form" class="form-inline" id="footer_form" method="POST" action="userinfo">
                       <div class="form-group ">
                           <input type="email" name="email" class="form-control" id="email" placeholder="Your Email Id">
                       </div>
@@ -28,10 +28,11 @@
           <div class="row">
 
               <div class="col-md-4  footerlogo">
+               <!--  <a href="index."><img src="images/Karunya IT Solutions final.jpg" height="130" width="200"></a> -->
 
-                  <a href="index.php"> <img src="images/karunya_infotech_original_prev_ui.png" height="120" width="200" ></a>
+                  <a href="index"> <img src="images/Karunya It Solutions final.jpg" height="120" width="200" ></a>
                   <p class="text-justify">
-                     Karunya Infotech has always believed in ensuring complete satisfaction of its patrons. We strictly follow ethical business policies to maintain that trust. What has kept us as their first choice is our quality of work and timely deliverability of services with the help of industry's most efficient workforce.
+                     Karunya IT Solutions (OPC) Private Limited  has always believed in ensuring complete satisfaction of its patrons. We strictly follow ethical business policies to maintain that trust. What has kept us as their first choice is our quality of work and timely deliverability of services with the help of industry's most efficient workforce.
 
                   </p>
               </div>
@@ -41,26 +42,26 @@
                   <h5 class="text-uppercase">Services</h5>
                   <ul class="list-unstyled underline">
                       <li>
-                          <a href="smart_meters1.php"> Smart Meters</a>
+                          <a href="smart_meters1"> Smart Meters</a>
                       </li>
                       <li>
-                          <a href="it-services1.php"> IT Services</a>
+                          <a href="it-services1"> IT Services</a>
                       </li>
                       <li>
-                          <a href="information-security1.php"> Information Security</a>
+                          <a href="information-security1"> Information Security</a>
                       </li>
 
                       <li>
-                          <a href="Forensic_Services1.php">Forensic Services</a>
+                          <a href="Forensic_Services1">Forensic Services</a>
                       </li>
                       <!--li>
-                          <a href="digital-forensics.php"> Digital Forensics</a>
+                          <a href="digital-forensics"> Digital Forensics</a>
                       </li-->
                       <li>
-                          <a href="software1.phpp"> Software Development</a>
+                          <a href="software1"> Software Development</a>
                       </li>
                       <li>
-                          <a href="hardware1.php"> Hardware Services</a>
+                          <a href="hardware1"> Hardware Services</a>
                       </li>
                   </ul>
               </div>
@@ -94,7 +95,7 @@
                       <li>
                           <span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="tel:918878992542" style="color:#4582FE;">+91 8878992542</a>
                       </li>
-                      <li><span><i class="fa fa-globe" aria-hidden="true"></i></span> <a href="http://karunyainfotech.com" style="color:#4582FE;">https://karunyainfotech.com</a></li>
+                      <li><span><i class="fa fa-globe" aria-hidden="true"></i></span> <a href="http://karunyagroup.com" style="color:#4582FE;">https://karunyagroup.com</a></li>
                       
                   </ul>
               </div>
@@ -163,7 +164,18 @@
               })
 
           </script>
-        <script>(function(w, d) { w.CollectId = "622c28dbbc2315111d70a58a"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+       <script type="text/javascript" >
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6242b6972abe5b455fc21ca8/1fva9ih4t';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
           
 
   </footer>
@@ -177,13 +189,38 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <center><h6 class="mt-3">copyright &copy; 2022Karunya Infotech</h6></center>
+       <center><h6 class="mt-3">Copyright &copy;  2022 Karunya IT Solutions (OPC) Private Limited, Software Technology Parks of India, Gwalior-474005</h6>&nbsp;<a href="term_&_conditions1" class="text-dark">Term & Conditions</a></center>
         <div class="col-md-12 text-center Copyright_Content">
             <button class="btn btn-sm btn-primary rounded mb-3" onclick="scrollToTop()" id="myBtn" style="float: right;"><i class="fa fa-arrow-up" aria-hidden="true"></i>&nbsp;</button>
         </div>
       </div>
     </div>
   </div>
+  <a href="https://api.whatsapp.com/send?phone=918878992542&text= Welcome To Karunya IT Solutions (OPC) Private Limited" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float" aria-hidden="true" style="font-size:30px;"></i></a>
+
+ 
+<style>
+   .float{
+position:fixed;
+width:60px;
+height:60px;
+bottom:12px;
+right:10px;
+background-color:#25d366;
+color:#FFF;
+border-radius:50px;
+text-align:center;
+ font-size:25px;
+box-shadow: 2px 2px 3px #999;
+margin-bottom: 50px;
+ z-index:100;
+}
+.my-float{
+margin-top:15px;
+margin-left:-5px;
+}
+</style>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script>
   function scrollToTop() {

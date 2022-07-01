@@ -60,11 +60,9 @@ include "header.php";
 
             
                     </tr>
-                    <?php
-
-                    }
-
-                    ?>
+                    <?php 
+                } 
+                ?>
                     
 
 

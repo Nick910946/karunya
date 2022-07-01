@@ -1278,7 +1278,7 @@ button:focus {
 
 .col-sm-3.etoe-box {
     background-color: #ffffff;
-    text-align: center;
+    /*text-align: center;*/
 
 
     margin: 0 55px 85px;
@@ -2359,7 +2359,7 @@ section.fontbox.section1 .col-md-6.wow.fadeIn a.Fontbtn {
         max-width: 1140px;
     }
 
-    .newContainer {
+    .newContainer 
         .col-md-6.BranchesIncludeImage {
             /* padding-left: 200px; */
         }
@@ -3902,6 +3902,13 @@ max-width(1600).middle-img {
 
     .forminput input {
         width: 100%;
+    }
+
+}
+@media (max-width:520px) {
+    .ac img {
+        width:500px;
+       
     }
 
 }

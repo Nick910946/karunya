@@ -1,24 +1,3 @@
-<!-- <section class="Lets_start">
-      <div class="lftdots wow slideInUp">
-          <img src="images/dot1-started2.png">
-      </div>
-      <div class="container">
-          <div class="row">
-              <div class="col-12 text-center Get_Started_Content">
-                  <p style="text-align: center;"> lets <span>Get started</b></span></p>
-                  <form name="footer_form" class="form-inline" id="footer_form" method="POST" action="userinfo.php">
-                      <div class="form-group ">
-                          <input type="email" name="email" class="form-control" id="email" placeholder="Your Email Id">
-                      </div>
-                      <button type="submit" class="btn btn-primary">Sign Up<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-                  </form>
-                  <div id="contact-response"></div>
-              </div>
-
-              <div class="rightdots wow slideInUp">
-                  <img src="images/dot1-started.png">
-              </div>
-  </section> -->
 
   <footer class="page-footer font-small blue " style="background-color: white;">
 
@@ -28,9 +7,9 @@
 
               <div class="col-md-4  footerlogo">
 
-                  <a href="index.php"> <img src="images/karunya_global_new_logo_1.png"></a>
+                  <a href="index"> <img src="images/karunyaAs1.jpg"></a>
                   <p class="text-justify">
-                      Karunya Global has always believed in ensuring complete satisfaction of its patrons. We strictly follow ethical business policies to maintain that trust. What has kept us as their first choice is our quality of work and timely deliverability of services with the help of industry's most efficient workforce.
+                     Karunya Applied Science (OPC) Pvt Ltd has always believed in ensuring complete satisfaction of its patrons. We strictly follow ethical business policies to maintain that trust. What has kept us as their first choice is our quality of work and timely deliverability of services with the help of industry's most efficient workforce.
 
                   </p>
               </div>
@@ -40,27 +19,28 @@
                   <h5 class="text-uppercase">Services</h5>
                   <ul class="list-unstyled underline">
                       <li>
-                          <a href="smart_meters.php"> Smart Meters</a>
+                          <a href="smart_meters"> Smart Meters</a>
                       </li>
                       <li>
-                          <a href="it-services.php"> IT Services</a>
+                          <a href="it-services"> IT Services</a>
                       </li>
                       <li>
-                          <a href="information-security.php"> Information Security</a>
+                          <a href="information-security"> Information Security</a>
                       </li>
 
                       <li>
-                          <a href="Forensic_Services.php">Forensic Services</a>
+                          <a href="Forensic_Services">Forensic Services</a>
                       </li>
                       <!--li>
-                          <a href="digital-forensics.php"> Digital Forensics</a>
+                          <a href="digital-forensics"> Digital Forensics</a>
                       </li-->
                       <li>
-                          <a href="software.phpp"> Software Development</a>
+                          <a href="softwarep"> Software Development</a>
                       </li>
                       <li>
-                          <a href="hardware.php"> Hardware Services</a>
+                          <a href="hardware"> Hardware Services</a>
                       </li>
+
                   </ul>
               </div>
 
@@ -84,8 +64,10 @@
                           <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                           <a href="https://www.linkedin.com/company/68772823/admin/" target="_blank">Linkedin</a>
                       </li>
+
                   </ul>
               </div>
+
               <div class="col-md-3 ContactList">
 
                   <h5 class="text-uppercase">Contact us</h5>
@@ -100,8 +82,7 @@
 
           </div>
           
-
-
+           
           
 
 
@@ -162,7 +143,33 @@
               })
 
           </script>
-       <script>(function(w, d) { w.CollectId = "622c28dbbc2315111d70a58a"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+     <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+      CometChatWidget.init({
+
+      "appID": "2079972c95f63a94",
+      "appRegion": "us",
+      "authKey": "6842a5d4d10d4a3718ce9adc290f9eb11ca335bb"
+    }).then(response => {
+      console.log("Initialization completed successfully");
+      //You can now call login function.
+      CometChatWidget.login({
+        "uid": "superhero2"
+      }).then(response => {
+        CometChatWidget.launch({
+          "widgetID": "bfcdc7a4-a352-47a5-953d-7daf359655d5",
+          "docked": "true",
+          "alignment": "left", //left or right
+          "roundedCorners": "true",
+          "height": "450px",
+          "width": "400px",
+          "defaultID": 'superhero1', //default UID (user) or GUID (group) to show,
+          "defaultType": 'user' //user or group
+
+        });
+
+  </script>
+
           
 
   </footer>
@@ -176,13 +183,39 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <center><h6 class="mt-3">copyright &copy; 2022 Karunya Global</h6></center>
+        <center><h6 class="mt-3">Copyright &copy; 2022 Karunya Applied Science (OPC) Pvt Ltd, Software Technology Parks of India, Gwalior-474005</h6>&nbsp;<a href="term_&_conditions" class="text-dark">Term & Conditions</a></center>
         <div class="col-md-12 text-center Copyright_Content">
             <button class="btn btn-sm btn-primary rounded mb-3" onclick="scrollToTop()" id="myBtn" style="float: right;"><i class="fa fa-arrow-up" aria-hidden="true"></i>&nbsp;</button>
         </div>
       </div>
     </div>
   </div>
+  <a href="https://api.whatsapp.com/send?phone=918878992542&text= Welcome To Karunya Applied Science (OPC) Pvt Ltd" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float" aria-hidden="true" style="font-size:30px;"></i></a>
+
+ 
+<style>
+   .float{
+position:fixed;
+width:60px;
+height:60px;
+bottom:12px;
+right:10px;
+background-color:#25d366;
+color:#FFF;
+border-radius:50px;
+text-align:center;
+ font-size:25px;
+box-shadow: 2px 2px 3px #999;
+margin-bottom: 50px;
+ z-index:100;
+}
+
+.my-float{
+margin-top:15px;
+margin-left:-5px;
+}
+</style>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script>
   function scrollToTop() {

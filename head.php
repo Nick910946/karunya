@@ -4,7 +4,7 @@
     <title>Karunya Group</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=0">
-    <link rel="icon" href="images/karunya_infotech_originali_icon.jpg" sizes="16x16">
+    <link rel="icon" href="images/Karunya_It_Solutions_final.png" sizes="16x16">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -19,7 +19,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Buy Used/refurbished Servers in India | Dell, HP, IBM, Cisco | Second-hand  Server Chennai |  Refurbished Server Ahmedabad |  Refurbished Server Kolkata | Second hand  Server Pune |  Refurbished Server Mumbai | Used  Server Lucknow |  Refurbished Server Noida | " />
     <meta property="og:description" content="Buy Refurbished Servers online in India at low prices, Shop for Certified Dell, HP, IBM, Cisco,  secondhand, used Servers, Server Price List HP Servers Price List, IBM Server Price List,DELL Servers Price List ,Refurbish Servers Price list." />
-    <style>
+     <style>
         .menus li a:hover{
             text-shadow: 2px 2px 5px black;
         }
@@ -49,7 +49,14 @@
         .footer-icon li a{
             text-decoration: none;
         }
+        .logout{
+            /*position: absolute;*/
+
+        }
+          
     </style>
+
+   
 
    
 </head>
@@ -59,8 +66,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6 logo">
-    			<!-- <a href="index.php"><img src="images/NewTechLogo.png"></a> -->
-                  
+    			<!-- <a href="index"><img src="images/NewTechLogo.png"></a> -->
+                   <a href="index."><img src="images/Karunya It Solutions final.jpg" height="130" width="200"></a>    
 
                   
                 </div>
@@ -73,31 +80,37 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto menus">
                                 <li class="nav-item ">
-                                    <a class="nav-link" href="home1.php" style="font-size: 20px;">Home</a>
+                                    <a class="nav-link" href="home1" style="font-size: 20px;">Home</a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link" href="about-us1.php" style="font-size: 20px;">About Us </a>
+                                    <a class="nav-link" href="about-us1" style="font-size: 20px;">About Us </a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 20px;">Services </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="smart_meters1.php" style="font-size: 20px;">Smart Meters</a>
-                                        <a class="dropdown-item" href="it-services1.php" style="font-size: 20px;">IT Services</a>
-                                        <a class="dropdown-item" href="information-security1.php" style="font-size: 20px;">Information Security</a>
-                                        <a class="dropdown-item" href="Forensic_Services1.php" style="font-size: 20px;">Forensic Services</a>
-                                        <a class="dropdown-item" href="software1.php" style="font-size: 20px;">Software Development</a>
-                                        <a class="dropdown-item" href="hardware1.php" style="font-size: 20px;">Hardware Services</a>
-                                        <!-- <a class="dropdown-item" href="it-service-commitment.php">IT-Service Commitment</a>
-    									<a class="dropdown-item" href="rentalservice.php">Rental Service</a>
-                                        <a class="dropdown-item" href="Server&Cloud.php">Server &amp; Cloud </a>
-                                        <a class="dropdown-item" href="network-security-support.php">Network Security</a> -->
+                                        <a class="dropdown-item" href="smart_meters1" style="font-size: 20px;">Smart Meters</a>
+                                        <a class="dropdown-item" href="it-services1" style="font-size: 20px;">IT Services</a>
+                                        <a class="dropdown-item" href="information-security1" style="font-size: 20px;">Information Security</a>
+                                        <a class="dropdown-item" href="Forensic_Services1" style="font-size: 20px;">Forensic Services</a>
+                                        <a class="dropdown-item" href="software1" style="font-size: 20px;">Software Development</a>
+                                        <a class="dropdown-item" href="hardware1" style="font-size: 20px;">Hardware Services</a>
+                                        <!-- <a class="dropdown-item" href="it-service-commitment">IT-Service Commitment</a>
+    									<a class="dropdown-item" href="rentalservice">Rental Service</a>
+                                        <a class="dropdown-item" href="Server&Cloud">Server &amp; Cloud </a>
+                                        <a class="dropdown-item" href="network-security-support">Network Security</a> -->
                                     </div>
                                 </li>
-    							<li class="nav-item ">
-                                    <a class="nav-link" href="contact1.php" style="font-size: 20px;">Contact Us </a>
+    							
+                               
+                                 <!-- <li class="nav-item ">
+                                    <a class="nav-link" href="" style="font-size: 20px;" >Career</a>
                                 </li>
+ -->
+                                <!-- <li class="nav-item ">
+                                    <a class="nav-link" href="news_letter1" style="font-size: 20px;" >News Letter</a>
+                                </li> -->
                                 <li class="nav-item ">
-                                    <a class="nav-link" href="https://api.whatsapp.com/send?phone=918878992542&text= Welcome To Karunya Infotech" target="_blank" style="font-size: 20px;">WhatsApp </a>
+                                    <a class="nav-link" href="contact1" style="font-size: 20px;">Contact Us </a>
                                 </li>
                             </ul>
 

@@ -18,22 +18,17 @@ include "header.php";
                     </h2>
                     <p>
                        <address>
-						Karunya Global<br>
-                        Block-1, Software Technology Parks of India<br>
-						Gwalior Pin – 474005<br>Madhya Pradesh, India<br>
-						
-						<i class="fa fa-mobile" aria-hidden="true" style="font-size: 25px;"></i> <a href="tel:+918878992542" style="color:#4582FE;">+91 8878992542</a> <br>
-						<i class="fa fa-globe" aria-hidden="true" style="font-size: 16px;"></i> <a href="">https://karunyagroup.com</a><br>
+                        Karunya Applied Science (OPC) Pvt Ltd<br>
+                        Block-1, Software Technology Park of India<br>
+                        Gwalior, India<br>
+                        Pin – 474005<br>
+                        <i class="fa fa-mobile" aria-hidden="true" style="font-size: 25px;"></i> <a href="tel:+918878992542" style="color:#4582FE;">+91 8878992542</a> <br>
+                        <i class="fa fa-globe" aria-hidden="true" style="font-size: 16px;"></i> <a href="">https://karunyagroup.com</a><br>
                         <i class="fa fa-envelope" aria-hidden="true" style="font-size: 16px;"></i> <a href="">mail@karunyagroup.com</a>
                         <br>
-						</address>
+                        </address>
                     </p>
-					<div class="map-img-box">
-						<!-- <a href="https://www.google.com/maps/search/1855,+Sector+46,+Gurugram+%E2%80%93+122003,+Haryana,+India/@28.4360008,77.051395,15.25z" target="_blank"><img src="images/map-img.jpg" alt="map-image"></a> -->
-                        <div id="map-container-google-1" class="z-depth-1-half map-container shadow" style="height: 50px; width: 320px;">
-                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d632.5085640337297!2d78.1557433466111!3d26.261379153772722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c7ee64ce2c83%3A0xe15f4939a2f841f3!2sSoftware%20Technology%20Park%20of%20India%20Gwalior!5e0!3m2!1sen!2sin!4v1646897625427!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
-					</div>
+
                 </div>
                 <div class="col-md-6 FormSection contact-right">
                     <form name="contact_form" id="contact_form" method="POST" onsubmit="return validation()" action="userdata.php">
@@ -74,13 +69,20 @@ include "header.php";
                             </div>
                         </div> -->
                         <button type="submit" class="bannerbtn btnCol btnWhite mt-2">Submit</button>
-                        <div id="contact-message"></div> 
+                        <div id="contact-message"></div>
                     </form>
-                    <a href="display.php"><button type="submit" class="bannerbtn btnCol btnWhite mt-2">Display</button></a> 
                 </div>
-
-        </div>
+            </div> 
+            <div class="col-md-6  map-img-box">
+                        <!-- <a href="https://www.google.com/maps/search/1855,+Sector+46,+Gurugram+%E2%80%93+122003,+Haryana,+India/@28.4360008,77.051395,15.25z" target="_blank"><img src="images/map-img.jpg" alt="map-image"></a> -->
+                        <div id="map-container-google-1" class="z-depth-1-half map-container shadow" >
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d632.5085640337297!2d78.1557433466111!3d26.261379153772722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c7ee64ce2c83%3A0xe15f4939a2f841f3!2sSoftware%20Technology%20Park%20of%20India%20Gwalior!5e0!3m2!1sen!2sin!4v1646897625427!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div> 
+                </div>
+    </div>
     </section>
+
     </main>
 
     <script>
@@ -120,6 +122,7 @@ include "header.php";
             }
         }
     </script>
+    
 <?php
 include "footer.php";
 ?>

@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 include "dbcon.php";
@@ -16,3 +17,4 @@ $q = "insert into contact(name,email,phone,description)value('$name','$email','$
 $p = mysqli_query($con,$q);
 echo "<span style='color:green;'>Message sent successfully..!!</span>";
 ?>
+

@@ -6,3 +6,4 @@ $con = mysqli_connect("localhost","root","","karunya_db");
 // 	echo "not connected";
 // }
 ?>
+ 

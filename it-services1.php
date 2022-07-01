@@ -1,6 +1,19 @@
 <?php
 include "head.php";
 ?>
+<style>
+.col-sm-3:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.our-service-box:hover {
+  -ms-transform: scale(0.9); /* IE 9 */
+  -webkit-transform: scale(0.9); /* Safari 3-8 */
+  transform: scale(0.9); 
+}
+
+</style>
 
 <main>
   <section class="banner font-box">
@@ -110,38 +123,8 @@ include "head.php";
         </div>
     </section>
 
-	<!-- <section id="industry" class="font-box section-box font-color fadeInUp">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h3 class="blue-color">Some Examples of Industry Standard Systems Covered</h3>
-					<h5 class="white-color">IBM x Series Servers, Dell Servers, HP ProLiant Servers, & other Blades</h5>
-				</div>
-			</div>
-			<div class="Covered-img-box">
-				<img src="images/Covered-img.png">
-			</div>
-		</div>
-	</section>
-	<section id="hardware" class="font-box section-box font-color fadeIn">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h3 class="black-color">Hardware Support by Karunya Infotech</h3>
-					<p>Our engineers carry certifications and all the training in all OEM platforms (Sun, IBM, Dell, HP, etc) with an average of over 5 to 10 years’ experience to provide professional hardware support, reducing customer downtime by delivering effective triage, diagnosis, and onsite field engineer services. We have developed a lab for equipment diagnostic, repair, and testing on all platforms that we support.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="operating" class="font-box section-box font-color fadeInUp">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h3 class="black-color">Operating System Support by Karunya Infotech</h3>
-					<p>Your maintenance solution can only be complete with a firm understanding of the OS operating systems running on your hardware, and at Karunya Infotech, our support includes both hardware and Windows, Linux, Sun Solaris operating system support.</p>
-				</div>
-			</div>
-		</div>
+
+
 	</section> -->
 </main>
 

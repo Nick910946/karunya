@@ -1,4 +1,4 @@
-<?php
+         <?php
 include "head.php";
 ?>
 
@@ -47,15 +47,15 @@ include "head.php";
                         <span class="Boldfont"> Software Development<br> Services:</span>
                     </h2>
                     <ul class="ulImage">
-                        <li>Web/Windows Development</li>
-                        <li>Custom Application Development</li>
+                        <li><i class="fa fa-angle-double-right" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;</i>Web/Windows Development</li>
+                        <li><i class="fa fa-angle-double-right" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;</i>Custom Application Development</li>
                      
-                        <li>Mobile Application Development</li>
-                        <li>Application Maintenance </li>
+                        <li><i class="fa fa-angle-double-right" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;</i>Mobile Application Development</li>
+                        <li><i class="fa fa-angle-double-right" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;</i>Application Maintenance </li>
                       
-                        <li>Health Care Application </li>
-                        <li>MLM Application</li>
-                         <li>ERP/CRM Application</li>
+                        <li><i class="fa fa-angle-double-right" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;</i>Health Care Application </li>
+                        <li><i class="fa fa-angle-double-right" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;</i>MLM Application</li>
+                         <li><i class="fa fa-angle-double-right" aria-hidden="true" style="font-size:20px;"></i>&nbsp;&nbsp;&nbsp;</i>ERP/CRM Application</li>
                        
                     </ul>
                 </div>
